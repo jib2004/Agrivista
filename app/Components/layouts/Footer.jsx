@@ -7,10 +7,10 @@ import icon4 from "../../../public/images/Group 86.png"
 const Footer = () => {
   return (
     <div className=" bg-[#204E51] text-white px-4 xl:px-0 py-4 md:py-32">
-      <div className=" max-w-[1127px] flex justify-between mx-auto ">
+      <div className=" md:max-w-[1127px] flex justify-between md:mx-auto ">
       <div>
         <h3 className=" font-bold text-[36px] leading-[43.88px] ">AgriVista Farms</h3>
-        <p className=" leading-[24px] font-light w-[390px] text-[20px] mt-4">Li Europan lingues es membres del sam familie. Lor separat existentie</p>
+        <p className=" leading-[24px] font-light w-[90%] md:w-[390px] text-[20px] mt-4">Li Europan lingues es membres del sam familie. Lor separat existentie</p>
         <div className="flex gap-4 mt-10">
             <Image src={icon1}  className=" cursor-pointer"/>
             <Image src={icon2}  className=" cursor-pointer"/>
