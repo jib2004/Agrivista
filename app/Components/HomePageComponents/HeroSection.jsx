@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopBanner = () => {
   return (
-    <div className="flex flex-col items-center justify-center hero h-[500px] md:h-[817px] relative -z-20 !bg-[url('/images/image1.png')] bg-white bg-no-repeat bg-center bg-cover w-screen md:w-auto">
+    <div className="flex flex-col items-center justify-center hero h-[500px] md:h-[817px] relative -z-20 !bg-[url('/images/image1.png')] bg-white bg-no-repeat bg-center bg-cover ">
       <h1 className="text-white text-[30px] md:text-[60px] xl:text-[90px] font-bold xl:leading-[93.6px] xl:w-[1113px] text-center">
       The Role of Technology in Revolutionizing Agriculture
       </h1>
