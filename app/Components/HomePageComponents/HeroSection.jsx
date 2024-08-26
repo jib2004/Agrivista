@@ -9,8 +9,8 @@ const TopBanner = () => {
       <p className="text-[14px] md:text-[16px] mt-5 leading-[24px] md:w-[540px] text-white text-center">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.</p>
       
       <div className="mt-14 flex items-center gap-2 md:gap-12">
-      <button className="w-[175.99px] h-[48px] cursor-pointer text-white rounded-lg bg-[#204E51] font-semibold text-center leading-[23.48px] text-[20px]">Get Started</button>
-      <button className="w-[175.99px] h-[48px] cursor-pointer text-white rounded-lg border border-white font-semibold text-center leading-[23.48px] text-[20px]">Learn More</button>
+      <button className="p-4 md:p-0 md:w-[175.99px] h-[48px] cursor-pointer text-white rounded-lg bg-[#204E51] font-semibold text-center leading-[23.48px] text-[20px]">Get Started</button>
+      <button className="p-4 md:p-0 md:w-[175.99px] h-[48px] cursor-pointer text-white rounded-lg border border-white font-semibold text-center leading-[23.48px] text-[20px]">Learn More</button>
       </div>
       
 
