@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className =" leading-[34.13px] text-[28px] font-bold xl:basis-[40%] ">
       Agrivista Farms
       </div>
-      <div className={`fixed top-0 left-0 bg-white w-screen h-screen xl:w-auto xl:h-auto xl:static flex flex-col xl:flex-row xl:items-center xl:basis-[60%] pl-5 justify-between py-4 xl:py-0 xl:translate-x-0 duration-200 ${isOpen ? 'translate-x-0':' translate-x-[1000px]'}`}>
+      <div className={`fixed top-0 left-0 bg-white w-screen h-screen xl:w-auto xl:h-auto xl:static flex flex-col xl:flex-row xl:items-center xl:basis-[60%] pl-5 justify-between py-4 xl:py-0 xl:translate-x-0 duration-200 ${isOpen ? 'translate-x-0':' translate-x-[2000px]'}`}>
       <ul className=" flex flex-col xl:flex-row gap-7 ">
         <li className="xl:hidden"><MdClose className="size-9" onClick={handleDisplay}/></li>
         <li className={`font-semibold text-[20px] leading-[23.48px] cursor-pointer`}>Home</li>
